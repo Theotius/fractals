@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build mandelbrot",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "-o", "mandelbrot", "mandelbrot.cpp", "EasyBMP\\EasyBMP.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
